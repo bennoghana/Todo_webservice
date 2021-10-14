@@ -1,0 +1,29 @@
+{
+  "name": "todo_webservice",
+  "version": "1.0.0",
+  "description": "a todo  web service for a flutter mobile app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennoghana/Todo_webservice.git"
+  },
+  "author": "Ebenezer Laryea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennoghana/Todo_webservice/issues"
+  },
+  "homepage": "https://github.com/bennoghana/Todo_webservice#readme",
+  "dependencies": {
+    "datenv": "0.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
