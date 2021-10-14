@@ -73,7 +73,7 @@ const {id} = req.params;
 })
 
 ///create a todo
-app.post('/todo',async(req,res)=>{
+app.post('/todos',async(req,res)=>{
 const {title,description,date_time} = req.body;
 
 const todoModel = await TodoModel.create({
